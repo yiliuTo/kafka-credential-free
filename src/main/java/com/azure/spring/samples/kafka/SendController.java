@@ -1,4 +1,4 @@
-package com.azure.spring.kafka;
+package com.azure.spring.samples.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

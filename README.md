@@ -5,7 +5,7 @@ This sample illustrates how to connect to Azure Event Hubs for Kafka without cre
 To run this sample, you need to do the following steps:
 1. Complete the property `spring.kafka.bootstrap-servers` with the value of your Azure Event Hubs namespace name in [application.properties](./src/main/resources/application.properties)
 2. Fill in the property `spring.kafka.template.default-topic` with the value of your Azure Event Hub name in [application.properties](./src/main/resources/application.properties), which will be used to send/receive messages with.
-3. Fill in your Azure Event Hub name in [ReceiveService.java](./src/main/java/com/azure/spring/kafka/ReceiveService.java).
+3. Fill in your Azure Event Hub name in [ReceiveService.java](src/main/java/com/azure/spring/samples/kafka/ReceiveService.java).
 
 ### Run it locally
 To run it locally, you can use Azure CLI credential to connect to Azure Event Hubs. Please refer to below steps to setup Azure CLI credentials in your environment and configure it with necessary Azure Event Hubs data plane permissions.

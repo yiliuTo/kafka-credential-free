@@ -8,10 +8,10 @@
 		<version>2.6.9</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.azure.spring</groupId>
-	<artifactId>kafka-credential-free</artifactId>
+	<groupId>com.azure.spring.samples</groupId>
+	<artifactId>kafka-credential-free-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kafka-credential-free</name>
+	<name>kafka-credential-free-sample</name>
 	<description>Demo project for credential free support of Event Hubs for Kafka</description>
 	<properties>
 		<spring-cloud-azure.version>4.3.0</spring-cloud-azure.version>
